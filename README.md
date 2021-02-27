@@ -20,3 +20,7 @@ The DiceWareMultiLan.exe file can simply be run on Windows computers. The python
 
 # Word Lists
 The tool includes word lists in english (https://theworld.com/%7Ereinhold/beale.wordlist.asc), german (https://theworld.com/~reinhold/diceware_german.txt), french (http://weber.fi.eu.org/index.shtml.en#projects) and danish (https://pastebin.com/rFatW8up). Additional lists can be loaded during runtime.
+
+# ToDo List:
+1. Optimize Windows executable, packaged with PyInstaller
+2. Add time to brute force pass phrase estimator
