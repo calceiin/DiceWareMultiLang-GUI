@@ -12,7 +12,7 @@ import pathlib
 import webbrowser
 # import numpy as np
 
-from DiceWareMainWindow_py import Ui_MainWindow
+from DiceWareMainWindow import Ui_MainWindow
 
 
 # -----------------------------------------------------------------------------
@@ -42,7 +42,7 @@ class GUIForm(QtWidgets.QMainWindow, Ui_MainWindow):
         self.checkBox_english.setChecked(True)
         self.checkBox_french.setChecked(True)
         self.checkBox_german.setChecked(True)
-        self.lineEdit_Separator.setText(QtCore.QCoreApplication.translate("MainWindow", '_'))
+        self.lineEdit_Separator.setText(QtCore.QCoreApplication.translate("DiceWareMultiLang", '_'))
         self.spinBox_WordCount.setValue(7)
         self.spinBox_SpecialCharsToAdd.setValue(6)
         self.spinBox_NumbersToAdd.setValue(5)
@@ -51,8 +51,11 @@ class GUIForm(QtWidgets.QMainWindow, Ui_MainWindow):
         self.spinBox_SpecialCharsToAdd.setValue(2)
         self.checkBox_SpecialCharsToAdd_randomPosition.setChecked(True)
         
-        # add whereever
-        # caps?
+        # to add:
+        # 	caps
+        #	position scramble
+        #	passphrase brute force time to solve estimation
+        # 	optimize executables
         
     def randSpecialChar(self):
         specialCharsArr = ['~', '!', '#', '$', '%', '^', '&', '*', '(', ')',

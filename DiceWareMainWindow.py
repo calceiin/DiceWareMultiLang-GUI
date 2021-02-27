@@ -12,7 +12,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
+        MainWindow.setObjectName("DiceWareMultiLang")
         MainWindow.resize(281, 627)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -151,7 +151,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("DiceWareMultiLang", "DiceWareMultiLang"))
         self.label.setToolTip(_translate("MainWindow", "<html><head/><body><p>This tools lets you select multiple word lists to generate you password.</p><p>During the calculation, all lists are equally likely to be selected. The choice of words grows with each list by a factor of 7776.</p></body></html>"))
         self.label.setText(_translate("MainWindow", "Select Word Lists to include in Pass Phrase:"))
         self.checkBox_english.setText(_translate("MainWindow", "english"))
