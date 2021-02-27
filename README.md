@@ -15,7 +15,7 @@ This tool here tries to improve security by running completly offline. It can al
 ## from command-line
 This tool can simply be run from the command-line: python ./DiceWareMultiLang.py  
 
-## as executable
+## ToDO:as an executable
 The DiceWareMultiLan.exe file can simply be run on Windows computers. The python-code an all libraries are packged using PyInstaller.
 
 # Word Lists
