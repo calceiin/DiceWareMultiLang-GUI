@@ -19,4 +19,4 @@ This tool can simply be run from the command-line: python ./DiceWareMultiLang.py
 The DiceWareMultiLan.exe file can simply be run on Windows computers. The python-code an all libraries are packged using PyInstaller.
 
 # Word Lists
-The tool includes word lists in english (LINK), german (LINK), french (LINK) and danish (LINK). Additional lists can be loaded udring runtime.
+The tool includes word lists in english (https://theworld.com/%7Ereinhold/beale.wordlist.asc), german (https://theworld.com/~reinhold/diceware_german.txt), french (http://weber.fi.eu.org/index.shtml.en#projects) and danish (https://pastebin.com/rFatW8up). Additional lists can be loaded udring runtime.
