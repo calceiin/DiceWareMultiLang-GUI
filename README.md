@@ -24,3 +24,4 @@ The tool includes word lists in english (https://theworld.com/%7Ereinhold/beale.
 # ToDo List:
 1. Optimize Windows executable, packaged with PyInstaller
 2. Add time to brute force pass phrase estimator
+3. Support custom length word lists
